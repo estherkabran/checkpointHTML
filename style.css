@@ -1,0 +1,43 @@
+header{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+background-color: white;
+width: 100%;
+line-height: 40px;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+   
+    color: red;
+
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: brown;
+}
+section>h2{
+    color: orangered;
+}
+p{
+    font-size: roboto;
+    
+}
+.title{
+    color: rgb(4, 4, 110);
+}
+div p{
+    text-align: center;
+    color: white;
+}
+div a{
+    display: block;
+    text-decoration: none;
+}
+.img{
+    height: 20px;
+    width: 20px;
+}
